@@ -57,4 +57,5 @@ jobs:
         
     - name: Run oc apply
       run: |
+        cd deployment/overlays/replicas-2
         oc apply -k .
