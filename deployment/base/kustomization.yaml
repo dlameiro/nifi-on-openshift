@@ -1,7 +1,7 @@
 ---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: ${{ env.namespace }}
+namespace: nifi-test-borrar
 resources:
   - poddisruptionbudget.yaml
   - serviceaccount-registry.yaml
