@@ -1,4 +1,4 @@
-name: OpenShift
+name: Nifi Deployment
 
 env:
   OPENSHIFT_SERVER: "${{ secrets.OPENSHIFT_SERVER }}"
